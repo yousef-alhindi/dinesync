@@ -1,0 +1,41 @@
+# Compiled binaries
+hub_server
+test_p2
+location_server
+client
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Logs and temp
+*.log
+*.tmp
+*.core
+core
+
+# PDF submissions (not needed in repo)
+*.pdf
